@@ -1,4 +1,4 @@
-package net.javaguides.springboot;
+package com.cdac.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

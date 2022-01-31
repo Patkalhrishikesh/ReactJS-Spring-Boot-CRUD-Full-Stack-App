@@ -1,25 +1,29 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+
+import "./Styles/mycss.css";
 
 class HeaderComponent extends Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-                 
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
+  render() {
+    return (
+      <div>
+        <header className="headerbgi">
+          <nav className="navbar navbar-expand-md">
             <div>
-                <header>
-                    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                    <div><a href="https://javaguides.net" className="navbar-brand">Employee Management App</a></div>
-                    </nav>
-                </header>
+              <a href="" className="navbar-brand text-center text-light">
+                <h3 className="display-5">Student Management App</h3>
+              </a>
             </div>
-        )
-    }
+          </nav>
+        </header>
+      </div>
+    );
+  }
 }
 
-export default HeaderComponent
+export default HeaderComponent;

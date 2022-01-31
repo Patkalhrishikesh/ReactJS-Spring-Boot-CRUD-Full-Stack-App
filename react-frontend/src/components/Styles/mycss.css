@@ -1,0 +1,59 @@
+.bgi {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.726),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.726)
+    ),
+    url("edu.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contentbgi {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.726),
+      rgba(88, 81, 81, 0.767),
+      rgba(0, 0, 0, 0.726)
+    ),
+    url("lightBg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.footerbgi {
+  background: linear-gradient(to right, rgba(7, 7, 7, 0.8), rgba(0, 0, 0, 0.7)),
+    url("footer.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.headerbgi {
+  background: linear-gradient(to right, rgba(7, 7, 7, 0.8), rgba(0, 0, 0, 0.7)),
+    url("footer.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.formbg {
+  background: linear-gradient(
+    to top,
+    rgba(74, 236, 241, 0.596),
+    rgba(118, 228, 118, 0.432)
+  );
+  border-radius: 20px;
+}
+
+.cardbgi {
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 1)
+  );
+  border-radius: 20px;
+}
